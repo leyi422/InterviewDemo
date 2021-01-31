@@ -17,23 +17,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ApiItem" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ApiItem" id="CWB-iq-yc9">
-                                <rect key="frame" x="0.0" y="28" width="414" height="66.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CWB-iq-yc9" id="ojE-5c-c6E">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="66.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="current_user_url" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JP9-io-yQ6">
                                             <rect key="frame" x="8" y="8" width="398" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="IML-bm-iKD"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://api.github.com/search/labels?q={query}&amp;repository_id={repository_id}{&amp;page,per_page}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-wB-tY1">
-                                            <rect key="frame" x="8" y="37" width="398" height="21.5"/>
+                                            <rect key="frame" x="8" y="37" width="398" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="YB7-re-9uO"/>
                                             </constraints>
@@ -104,16 +101,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://api.github.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xI3-d0-bve">
-                                            <rect key="frame" x="8" y="8" width="398" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="B6s-e8-OJm"/>
-                                            </constraints>
+                                            <rect key="frame" x="8" y="8" width="398" height="21.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021/01/31 10:30:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqh-gn-xqf">
-                                            <rect key="frame" x="8" y="37" width="398" height="21.5"/>
+                                            <rect key="frame" x="8" y="37.5" width="398" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="MmK-dI-pOt"/>
                                             </constraints>

@@ -18,6 +18,10 @@
 		B905BA3E25C63EE8006A8207 /* InterviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA3D25C63EE8006A8207 /* InterviewDemoUITests.swift */; };
 		B905BA7825C644BC006A8207 /* ResponseContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA7725C644BC006A8207 /* ResponseContentController.swift */; };
 		B905BA7D25C644DE006A8207 /* RequestHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */; };
+		B905BA8D25C6C8F2006A8207 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA8C25C6C8F2006A8207 /* models.swift */; };
+		B905BA9225C6C979006A8207 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA9125C6C979006A8207 /* Router.swift */; };
+		B905BA9725C6DB38006A8207 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA9625C6DB38006A8207 /* GithubApi.swift */; };
+		B9B3E56925C6F5300071B37D /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B3E56825C6F5300071B37D /* helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		B905BA3F25C63EE8006A8207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B905BA7725C644BC006A8207 /* ResponseContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseContentController.swift; sourceTree = "<group>"; };
 		B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryController.swift; sourceTree = "<group>"; };
+		B905BA8C25C6C8F2006A8207 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		B905BA9125C6C979006A8207 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B905BA9625C6DB38006A8207 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		B9B3E56825C6F5300071B37D /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		BB1A87EFAB10D4E9ED3D6C21 /* Pods-InterviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewDemo.release.xcconfig"; path = "Target Support Files/Pods-InterviewDemo/Pods-InterviewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				B905BA1825C63EE5006A8207 /* AppDelegate.swift */,
+				B905BA8C25C6C8F2006A8207 /* models.swift */,
 				B905BA1A25C63EE5006A8207 /* SceneDelegate.swift */,
 				B905BA7725C644BC006A8207 /* ResponseContentController.swift */,
 				B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */,
@@ -135,6 +144,9 @@
 				B905BA2425C63EE8006A8207 /* Assets.xcassets */,
 				B905BA2625C63EE8006A8207 /* LaunchScreen.storyboard */,
 				B905BA2925C63EE8006A8207 /* Info.plist */,
+				B905BA9125C6C979006A8207 /* Router.swift */,
+				B905BA9625C6DB38006A8207 /* GithubApi.swift */,
+				B9B3E56825C6F5300071B37D /* helper.swift */,
 				B905BA2125C63EE5006A8207 /* InterviewDemo.xcdatamodeld */,
 			);
 			path = InterviewDemo;
@@ -332,11 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B3E56925C6F5300071B37D /* helper.swift in Sources */,
+				B905BA8D25C6C8F2006A8207 /* models.swift in Sources */,
 				B905BA7D25C644DE006A8207 /* RequestHistoryController.swift in Sources */,
 				B905BA2325C63EE5006A8207 /* InterviewDemo.xcdatamodeld in Sources */,
+				B905BA9225C6C979006A8207 /* Router.swift in Sources */,
 				B905BA7825C644BC006A8207 /* ResponseContentController.swift in Sources */,
 				B905BA1925C63EE5006A8207 /* AppDelegate.swift in Sources */,
 				B905BA1B25C63EE5006A8207 /* SceneDelegate.swift in Sources */,
+				B905BA9725C6DB38006A8207 /* GithubApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

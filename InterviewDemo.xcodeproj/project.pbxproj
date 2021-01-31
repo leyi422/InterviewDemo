@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3546B123552D689CF6715179 /* Pods_InterviewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC2B7EDEBEA28CB1CF601A2 /* Pods_InterviewDemo.framework */; };
 		B905BA1925C63EE5006A8207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA1825C63EE5006A8207 /* AppDelegate.swift */; };
 		B905BA1B25C63EE5006A8207 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA1A25C63EE5006A8207 /* SceneDelegate.swift */; };
-		B905BA1D25C63EE5006A8207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA1C25C63EE5006A8207 /* ViewController.swift */; };
 		B905BA2025C63EE5006A8207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B905BA1E25C63EE5006A8207 /* Main.storyboard */; };
 		B905BA2325C63EE5006A8207 /* InterviewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B905BA2125C63EE5006A8207 /* InterviewDemo.xcdatamodeld */; };
 		B905BA2525C63EE8006A8207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B905BA2425C63EE8006A8207 /* Assets.xcassets */; };
 		B905BA2825C63EE8006A8207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B905BA2625C63EE8006A8207 /* LaunchScreen.storyboard */; };
 		B905BA3325C63EE8006A8207 /* InterviewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA3225C63EE8006A8207 /* InterviewDemoTests.swift */; };
 		B905BA3E25C63EE8006A8207 /* InterviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA3D25C63EE8006A8207 /* InterviewDemoUITests.swift */; };
+		B905BA7825C644BC006A8207 /* ResponseContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA7725C644BC006A8207 /* ResponseContentController.swift */; };
+		B905BA7D25C644DE006A8207 /* RequestHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		B905BA1525C63EE5006A8207 /* InterviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B905BA1825C63EE5006A8207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B905BA1A25C63EE5006A8207 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B905BA1C25C63EE5006A8207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B905BA1F25C63EE5006A8207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B905BA2225C63EE5006A8207 /* InterviewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterviewDemo.xcdatamodel; sourceTree = "<group>"; };
 		B905BA2425C63EE8006A8207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		B905BA3925C63EE8006A8207 /* InterviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B905BA3D25C63EE8006A8207 /* InterviewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewDemoUITests.swift; sourceTree = "<group>"; };
 		B905BA3F25C63EE8006A8207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B905BA7725C644BC006A8207 /* ResponseContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseContentController.swift; sourceTree = "<group>"; };
+		B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryController.swift; sourceTree = "<group>"; };
 		BB1A87EFAB10D4E9ED3D6C21 /* Pods-InterviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewDemo.release.xcconfig"; path = "Target Support Files/Pods-InterviewDemo/Pods-InterviewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +99,6 @@
 				11129CDFD56F0F10002C2378 /* Pods-InterviewDemo.debug.xcconfig */,
 				BB1A87EFAB10D4E9ED3D6C21 /* Pods-InterviewDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,7 +129,8 @@
 			children = (
 				B905BA1825C63EE5006A8207 /* AppDelegate.swift */,
 				B905BA1A25C63EE5006A8207 /* SceneDelegate.swift */,
-				B905BA1C25C63EE5006A8207 /* ViewController.swift */,
+				B905BA7725C644BC006A8207 /* ResponseContentController.swift */,
+				B905BA7C25C644DE006A8207 /* RequestHistoryController.swift */,
 				B905BA1E25C63EE5006A8207 /* Main.storyboard */,
 				B905BA2425C63EE8006A8207 /* Assets.xcassets */,
 				B905BA2625C63EE8006A8207 /* LaunchScreen.storyboard */,
@@ -330,8 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B905BA7D25C644DE006A8207 /* RequestHistoryController.swift in Sources */,
 				B905BA2325C63EE5006A8207 /* InterviewDemo.xcdatamodeld in Sources */,
-				B905BA1D25C63EE5006A8207 /* ViewController.swift in Sources */,
+				B905BA7825C644BC006A8207 /* ResponseContentController.swift in Sources */,
 				B905BA1925C63EE5006A8207 /* AppDelegate.swift in Sources */,
 				B905BA1B25C63EE5006A8207 /* SceneDelegate.swift in Sources */,
 			);

@@ -21,7 +21,7 @@ class RequestHistoryController: UITableViewController {
             [weak self] in
             print("subscribe2")
             self?.requestList.insert($0.req, at: 0)
-            self?.tableView.reloadData()
+            self?.tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .right)
         }).disposed(by: bag)
     }
 
